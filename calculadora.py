@@ -9,6 +9,7 @@
 # num2=input("Introduzca el segundo número: ")
 # print(num2)
 # print(int(num1)+int(num2))
+
 print("Iniciando calculadora")
 num1=input("Introduzca el primer número: ")
 #print(num1)
@@ -31,3 +32,6 @@ elif oper=="5":
     result=num1**num2
 else:
     result=(oper, " Opción inválida")
+
+# solo se imprime cuando la opción es correcta
+print(result)
